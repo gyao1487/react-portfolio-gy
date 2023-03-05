@@ -5,7 +5,8 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mgebydrj");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+//Make a modal pop up for message sent
+      return <p>Thanks for your message!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>
@@ -21,7 +22,9 @@ function ContactForm() {
         prefix="Email" 
         field="email"
         errors={state.errors}
-      />
+      /> <label htmlFor="message">
+      Type your message here:
+    </label>
       <textarea
         id="message"
         name="message"
