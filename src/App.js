@@ -6,7 +6,6 @@ import ContentContainer from "./components/ContentContainer";
 function App() {
   return (
     <div>
-      <Navbar />
       <ContentContainer />
       <Footer />
     </div>
