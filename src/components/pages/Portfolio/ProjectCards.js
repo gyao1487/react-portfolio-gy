@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCards() {
     return (
-        <div id = "card">
+        <div className = "card">
         <p>Project cards go here</p>
         </div>
     )

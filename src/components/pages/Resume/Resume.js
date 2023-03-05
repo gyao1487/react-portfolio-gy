@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
 
     return (
-        <div id = "resume">
+        <div className = "resume">
         <h1>My Resume</h1>
         <button>Click here to download</button>
         </div>

@@ -4,7 +4,7 @@ import ProjectCards from './ProjectCards';
 
 function Portfolio() {
     return (
-        <div id = "portfolio">
+        <div className = "portfolio">
         <h1>My Projects</h1>
         <ProjectCards />
         </div>
