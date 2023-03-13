@@ -1,0 +1,23 @@
+/* Header */
+.navbar-brand {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+}
+
+.active {
+  font-weight: bold;
+}
+/* About Page */
+.headshot {
+  max-width: 350px;
+}
+
+/* Portfolio Page */
+.card {
+  width: 18rem;
+}

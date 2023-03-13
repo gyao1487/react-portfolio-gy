@@ -69,7 +69,9 @@ function Navbar({ currentPage, handlePageChange }) {
     //     </li>
     //   </ul>
     // </nav>
-  );
+  // );
+
+)
 }
 
 export default Navbar;

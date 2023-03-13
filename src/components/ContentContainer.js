@@ -19,6 +19,8 @@ function ContentContainer() {
         return <Contact />;
       case "Resume":
         return <Resume />;
+      default:
+        return <About />
     }
   };
 
